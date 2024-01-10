@@ -1,0 +1,169 @@
+@media screen and (max-width:1024px){
+    .container{
+    width:var(--tabsize);
+    margin:0 auto;
+}
+.section{
+    text-align: center;
+    padding-top:4rem;
+}
+/* nav section */
+#open-nav,
+#close-nav{
+    display: block;
+    font-size:20px;
+    cursor: pointer;
+}
+#close-nav{
+    display: none;
+    font-size:20px;
+    cursor: pointer;
+}
+.nav-container ul{
+  position: fixed;
+  top:70px; right:20px; 
+  background-color: var(--form);
+} 
+.nav-container ul li{
+    display: block;
+} 
+.nav-container ul li a{
+    display: block;
+    padding: .3rem 1rem;
+    color: var(--bg);
+} 
+.nav-container ul{
+    top:70px; right:-200px;
+    transform: scale(.1); 
+} 
+.nav-container ul.nav-ul-active{
+    top:70px; right:20px;
+    transform: scale(1); 
+} 
+/* nav section end */
+/* header section */
+header{
+    background-color: var(--bg);
+    position: relative;
+    height:80vh;
+    z-index:2;
+}
+.header-container{
+    padding: 6rem 0rem;
+   }
+.tex-content h1, h2, h3, p {
+    margin-bottom:2rem;
+}
+.tex-content h1{
+    font-size:65px;
+}
+.tex-content h2{
+    font-size:40px;
+}
+.tex-content h3{
+    font-size:30px;
+}
+.tex-content p{
+    padding: 0;
+    line-height:40px;
+    font-size:25px;
+    margin-bottom:2rem;
+}
+/* header section end */
+/* about saction */
+.about-container{
+    margin-top:3rem;
+}
+/* about saction end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/* nav section */
+@media screen and (max-width:450px){
+.container{
+    width:var(--mobailsize);
+    margin:0 auto;
+}
+.section{
+    text-align: center;
+    padding-top:3rem;
+}
+.logo{
+  margin-left:15px;
+}
+.nav-container{
+    height:50px;
+}
+.icondiv i{
+    margin: .5rem .8rem;
+    font-size:15px;
+    color: var(--maincolor);
+ }
+/* nav section end */
+/* header section */
+header{
+    height:95vh;
+}
+.header-container{
+ padding: 0rem 0rem;
+}
+.tex-content h1, h2, h3, p {
+    margin-bottom:.3rem;
+    text-align: left;
+    margin-left: 1rem;
+}
+.tex-content h1{
+    font-size:30px;
+}
+.tex-content h2{
+    font-size:25px;
+}
+.tex-content h3{
+    font-size:20px;
+}
+.tex-content p{
+    /* padding: 0rem 1rem; */
+    line-height:20px;
+    font-size:13px;
+    margin-bottom:2rem;
+}
+/* header section end */
+/* about saction */
+.about-container{
+    margin-top:2rem;
+    padding: 1rem;
+}
+.animate{
+    width:200px; height:200px; 
+}
+.about-container h1{
+    font-size:18px;
+    text-align: left;
+    margin-bottom:.5rem;
+    
+}
+.about-container p{
+    font-size:12px;
+    line-height:20px;
+}
+/* about saction end */
+
+
+
+
+
+
+
+
+}
